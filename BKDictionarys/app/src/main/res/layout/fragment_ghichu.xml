@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/editTextGhichu"
+        android:background="@drawable/shape"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:hint="Nhập ghi chú"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/stars"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+</RelativeLayout>
